@@ -3,8 +3,17 @@ import { colors, metrics } from '~/styles';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.white,
+    backgroundColor: colors.lighter,
     flex: 1,
+  },
+
+  loading: {
+    marginTop: metrics.baseMargin * 2,
+  },
+
+  columnWrapper: {
+    justifyContent: 'space-between',
+    marginHorizontal: metrics.baseMargin * 2,
   },
 });
 
