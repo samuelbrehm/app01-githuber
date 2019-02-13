@@ -6,6 +6,10 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
     flex: 1,
   },
+
+  loading: {
+    marginTop: metrics.baseMargin * 2,
+  },
 });
 
 export default styles;
